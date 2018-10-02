@@ -52,11 +52,6 @@ Para crear el virtualenv hay dos opciones:
   workon pycones2018
   ```
 
-#### Instalar los requisitos
-
-`pip install -r requirements-dev.txt`
-
-
 #### Instalación de dependencias
 
 Una vez dentro del entorno virtual, instalar las dependencias:
