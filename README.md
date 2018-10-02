@@ -1,6 +1,6 @@
 # :snake: PyConES 2018 Málaga :snake:
 ## TDD de cero a cien (o casi)
-**05 October 2018, 15:00 - 17:30**
+**05 octubre 2018, 15:00 - 17:30**
 Taller a cargo de [Alberto de la cruz](https://www.linkedin.com/in/alberto-de-la-cruz-grijalvo-51501a21) y [Raúl Villares](http://raulvillares.com)
 ---
 
@@ -12,14 +12,52 @@ Este taller pretende ir un paso más allá y que salgas con un idea general de c
 
 Queremos hacerlo mostrando las técnicas y herramientas concretas que utilizamos en el día a día en [Alea Soluciones](https://www.alea-soluciones.com/).
 
-### Requisitos
+### Entorno de trabajo
+
+#### Requisitos
 
 * Python 3 (¡sorpresa! :tada:)
 * Pip
+* Git
 * Virtualenv (o similar)
-* Ganas de aprender algo nuevo
+* Editor de código
 
-### Instalación del entorno de desarrollo
+#### Clonar repositorio
+
+```
+git clone https://github.com/aleasoluciones/pycones2018.git
+```
+
+#### Crear un entorno virtual
+
+Instalación de virtualenv: http://rukbottoland.com/blog/tutorial-de-python-virtualenv/
+
+Para crear el virtualenv hay dos opciones:
+
+1. Usar directamente virtualenv:
+
+  ```
+  virtualenv pycones2018
+  source pycones2018/bin/activate
+  ```
+2. Usar virtualenvwrapper (mkvirtualenv):
+
+  ```
+  mkvirtualenv pycones2018
+  ```
+
+  Si ya lo hemos creado usando `mkvirtualenv` con anterioridad, lo podemos activar de nuevo con:
+
+  ```
+  workon pycones2018
+  ```
+
+#### Instalar los requisitos
+
+`pip install -r requirements-dev.txt`
+
+
+#### Instalación de dependencias
 
 Una vez dentro del entorno virtual, instalar las dependencias:
 
