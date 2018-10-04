@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ### Recursos
 
-- [Diapositivas]()
+- [Diapositivas](https://github.com/aleasoluciones/pycones2018/blob/master/doc/PyConES_2018.pdf)
 - [Mamba](https://nestorsalceda.com/mamba/)
 - [Expects](https://expects.readthedocs.io/en/stable/)
 - [Doublex](https://pypi.org/project/doublex/)
