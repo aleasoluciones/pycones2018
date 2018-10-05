@@ -7,6 +7,10 @@ def fibonacci(index):
 
 
 with description('fibonacci specs'):
-    with context('foo'):
-        with it('bar'):
-            pass
+    with context('for index 0'):
+        with it('has value 0'):
+            index = 0
+
+            value = fibonacci(index)
+
+            expect(value).to(equal(0))
